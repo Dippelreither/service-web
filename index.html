@@ -1,92 +1,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width" />
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-<title>Serviceapp</title>
-<style>
-body{ font-family:Arial,Helvetica,sans-serif; font-size:13px; background:silver;}
-th{ background:#999999; text-align:left; vertical-align:center;width:140px; border-radius: 5px}
-input{ width:100%;border-radius: 5px}
-select{ width:100%;border-radius: 5px}
-textarea{ width:100%;border-radius: 5px}
-input.button{ width:140px; height:30px; background:#999999; border-radius: 5px}
-</style>
-</head>
-<body>
-    <table width="100%" border="0" cellpadding="0" cellspacing="0">
-      <tr>
-        <td align="center"><b><font size="5">United Servie Cluster ERP Service</font></b></td>
-        <!--<td align="center"><img src="logo.png" alt="logo" height="70"></td>-->        
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title>Apploader</title>
 
-         
-      </tr>
-      <!--<tr><td align="center">&nbsp;</td></tr>-->
-    </table>
-
-    <form action="http://service-web.usc24.com/service.php" method="post" name="mainform" enctype="multipart/form-data">
-    <table width="100%" border="0" cellpadding="0" cellspacing="5" align="center">
-    <tr>
-        <th>&nbsp;Name</th>
-        <td><input name="Name" type="text"></td>
-    </tr>
-
-    <tr>
-        <th>&nbsp;Email</th>
-        <td><input name="Email" type="text"></td>
-    </tr>
+    <script type="text/javascript" language="javascript">
+        window.location.href = 'loader.htm';
+    </script>
     
-    <tr>
-        <th>&nbsp;Firma</th>
-        <td><input name="Firma" type="text"></td>
-    </tr>
 
-    <tr>
-        <th>&nbsp;Produkt</th>
-        <td><select name="Programm">
-          <option>Magento</option>
-          <option>OpenCart</option>
-          <option>WooCommerce</option>
-          <option>Gambio</option>
-          <option>Wordpress</option>          
-          <option>Joomla</option>                    
-          <option>Flex.Open</option>
-        </select></td>        
-    </tr>
- 
-    <tr>
-        <th>&nbsp;Art</th>
-        <td><select name="fieldSubject"  id="fieldSubject">
-          <option>Fehler</option>
-          <option>Frage</option>
-          <option>Totalausfall</option>          
-          <option>Urgenz</option>          
-          <option>Wunschfunktionalitaet</option>
-        </select></td>        
-       
-    </tr>
-    
-    <tr>
-        <th colspan="2">&nbsp;Beschreibung</th>
+  </head>
+  <body>
 
-    </tr>
-
-    <tr>
-
-        <td colspan="2"><textarea name="fieldDescription" cols="20" rows="8" id="fieldDescription"></textarea></td>
-    </tr>
-    
-    <tr>
-      <th>&nbsp;Anhang</th>
-      <td><input name="upload" type="file" /></td>
-    </tr>
-    
-    <tr>
-        <td colspan="2" style="text-align:left;"><input class="button" type="submit" name="Submit" value="Send">&nbsp;<input class="button" type="reset" name="Reset" value="Reset"></td>
-    </tr>
-    
-    </table>
-    </form>
-</body>
+  </body>
 </html>
